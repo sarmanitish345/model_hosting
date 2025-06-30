@@ -1,9 +1,9 @@
-import streamlit as st
+import streamlit as st  
+import os
+import cv2
 from ultralytics import YOLO
 import tempfile
 from PIL import Image
-import cv2
-import os
 from pathlib import Path
 
 # Page title
