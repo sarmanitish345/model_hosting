@@ -6,8 +6,6 @@ import tempfile
 from PIL import Image
 from pathlib import Path
 
-st.write("🧪 Python version:", os.popen("python --version").read())
-st.write("🧪 OpenCV version:", cv2.__version__)
 
 # Page title
 st.set_page_config(page_title="Elephant Detector", layout="centered")
